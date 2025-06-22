@@ -28,9 +28,8 @@ It's built using **Flask** (Python web framework), and designed with **HTML/CSS*
 
 ## 🖼️ Screenshots
 
-> 
-
----
+![alt text](<Screenshot 2025-06-22 153409.png>)
+![alt text](<Screenshot 2025-06-22 153432.png>)
 
 ## 🚀 How to Run Locally
 
