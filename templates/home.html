@@ -1,0 +1,15 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Word Analyzer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Enter a Sentence to Analyzer</h1>
+    <form method="POST" action="/analyze">
+        <textarea name="text" rows="6" cols="50" placeholder="Type here..."></textarea><br><br>
+        <input type="submit" value="analyze">
+    </form>
+</body>
+</html>

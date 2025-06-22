@@ -1,0 +1,38 @@
+<!-- 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+</head>
+<body>
+    <h1>Analysis Result</h1>
+    <p><strong>Original Text:</strong>{{ Original_text }}</p>
+    <p><strong>Total Words:</strong>{{ total }}</p>
+    <p><strong>Unique Words:</strong>{{ Unique|length }}</p>
+    <p><strong>Most Common Words:</strong> {{ most_common[0] }} ({{ most_common[1] }} times)</p>
+
+    <a href="/">Analyze Another</a>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+</head>
+<body>
+    <h1>Analysis Result</h1>
+
+    <p><strong>Original Text:</strong> {{ original_text }}</p>
+
+    <p><strong>Total Words:</strong> {{ total }}</p>
+
+    <p><strong>Unique Words (count):</strong> {{ unique|length }}</p>
+
+    <p><strong>Unique Words (list):</strong> {{ unique }}</p>
+
+    <p><strong>Most Common Word:</strong> {{ most_common[0] }} ({{ most_common[1] }} times)</p>
+
+    <a href="/">Analyze Another</a>
+</body>
+</html>
